@@ -6,25 +6,34 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
   font: normal 100%/1.5 sans-serif;
+  line-height: 1.5em;
+}
+
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #79756f;
-  border: solid #595652 .5em;
+  border: solid #595652 .2em;
+  padding: .6em;
 }
 
 h1 {
   display: block;
+  margin: 0;
+  padding: 0;
+  font-family: Bevan, serif;
   color: #fff;
-  font-family: "Bevan", cursive;
-  font-size: 3em;
   line-height: 1.5em;
   font-weight: bold;
   text-align: center;
 }
 
 nav ul {
-  margin: .3em;
+  margin: 0;
   padding: .6em;
   text-align: center;
   list-style-type: none;
@@ -38,10 +47,10 @@ nav a {
   display: inline-block;
   width: auto;
   margin: .3em;
-  padding: 1em;
+  padding: .5em .75em;
   background-color: #713837;
   color: #fff;
-  border-radius: .5em;
+  border-radius: .2em;
   text-decoration: none;
   text-align: center;
 }
